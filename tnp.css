@@ -344,6 +344,7 @@ button a{
   }
   .rowly{
       display: flex;
+      /* flex-direction: column; */
       flex-wrap: wrap;
   }
   ul{
@@ -392,7 +393,7 @@ button a{
       color: #ffffff;
       padding-left: 8px;
   }
-  .footer-col .social-links a{
+  /* .footer-col .social-links a{
       display: inline-block;
       height: 40px;
       width: 40px;
@@ -408,8 +409,8 @@ button a{
       color: #24262b;
       background-color: #ffffff;
   }
-  
-  
+   */
+
   @media(max-width: 767px){
     .footer-col{
       width: 50%;
